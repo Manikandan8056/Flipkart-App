@@ -1,2 +1,2 @@
 # Hello-world
-iam a developer
+I am a developer
