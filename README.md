@@ -13,7 +13,23 @@
 
 #### List All Books
 `
-select * from Test_books;
+select * from Text_books;
 `
 
 ### Sort By
+#### Price Low-High
+`
+select * from Text_books order by Price ASC;
+`
+#### Price High-Low
+`
+select * from Text_books order by Price DESC;
+`
+#### Sort by stars
+`
+select * from Text_books where Stars=3 order by Books;
+`
+#### Sort by with Min-Max
+`
+select * from Text_books where price<=1500 and price>=800 order by Books;
+`
