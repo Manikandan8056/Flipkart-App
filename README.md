@@ -3,7 +3,7 @@
 ## Tables
 
 #### Table1: Text_books
-| Books | Price | Stars | New |
+| Books | Price | Stars | New_arrival |
 | -- | -- | -- | -- |
 | Maths | 500 | 3 | old |
 | CSS | 1000 | 4 | new |
@@ -32,4 +32,8 @@ select * from Text_books where Stars=3 order by Books;
 #### Sort by with Min-Max
 `
 select * from Text_books where price<=1500 and price>=800 order by Books;
+`
+#### Sort by New arrival
+`
+select * from Text_books where New_arrival='new' order by Books; 
 `
